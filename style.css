@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to left, #eecda3, #ef629f);
+}
+table td {
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	border: 5px solid #000;
+	position: relative;
+	font-size: 100px;
+	cursor: pointer;
+}
+.tbl {
+	text-align: center;
+	align-items: center !important;
+}
+
+.jumbotron {
+	background-image: linear-gradient(to left, #eecda3, #ef629f);
+	border: 1px solid #cc2b5e;
+	border-radius: 20px;
+	margin-top: 8px;
+}
+.jumbotron:hover {
+	background-image: linear-gradient(to left, #eecda3, #ef629f);
+	border: 1px solid #cc2b5e;
+	box-shadow: 5px 5px 4px #888888;
+}
