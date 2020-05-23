@@ -29,14 +29,14 @@ $(document).ready(function(){
 			{
 				result.innerHTML=tdSelector[array[i][0]].textContent+" WINS";
 				
-				setTimeout(clearBord,500); // delay in between
+				setTimeout(clearBord,3000); // delay in between
 				// (I think that a proper way to ask if a new match should be started or not should be asked!)
 				result.innerHTML=tdSelector[array[i][0]].textContent+" WON The Last Match!";
 				
 			} else if(window.totalChancesPlayed == 9){
 				
 				result.innerHTML="NO One WON The Last Match!";
-				setTimeout(clearBord,500);
+				setTimeout(clearBord,3000);
 			}
 		}
 		
