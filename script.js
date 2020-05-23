@@ -7,6 +7,7 @@ $(document).ready(function(){
 	function clearBord(){
 		for (var i = 0 ; i <=tdSelector.length-1 ; i++) {
 			tdSelector[i].textContent = '';
+			result.innerHTML = '';
 		}
 	};
 	clearBoard.on("click", clearBord)
@@ -23,7 +24,6 @@ $(document).ready(function(){
 			{
 				
 				result.innerHTML=tdSelector[array[i][0]].textContent+" WINS";
-				setTimeout(clearBord,500);
 			}	
 		}
 		
