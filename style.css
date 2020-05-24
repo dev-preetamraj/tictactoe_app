@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	background-image: linear-gradient(to left, #eecda3, #ef629f);
 }
+
 td {
 	height: 120px;
 	width: 120px;
@@ -16,16 +17,8 @@ td {
 table {
 	border-collapse: collapse;
 	position: relative;
-	left: 50%;
-	margin-left: -90px;
-}
-.col-8{
-	justify-content: center;
-	text-align: center;
-}
-.tbl {
-	text-align: center;
-	align-items: center !important;
+	/*left: 50%;*/
+	margin-left: 70px;
 }
 
 .jumbotron {
@@ -66,18 +59,3 @@ table tr td:last-child {
 	padding-top: 70px;
 	margin-bottom: 10px;
 }
-/*.endgame {
-	display: none;
-	width: 200px;
-	top: 120px;
-	background-color: rgba(205,133,63,0.8);
-	position: absolute;
-	left: 50%;
-	margin-left: -100px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: center;
-	border-radius: 5px;
-	color: white;
-	font-size: 2em;
-}*/
